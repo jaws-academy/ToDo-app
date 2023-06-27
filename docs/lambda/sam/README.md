@@ -27,7 +27,7 @@ Build and deploy (using SAM)
 
 2. To deply run:
 
-        sam deploy --profile jaws --resolve-s3 --stack-name sam-jaws --capabilities CAPABILITY_IAM --no-fail-on-empty-changeset --region eu-central-1
+        sam deploy --resolve-s3 --stack-name sam-jaws --capabilities CAPABILITY_IAM --no-fail-on-empty-changeset --region eu-central-1
 
 3. Provisioning itself is handled by the CloudFormation. To see the progress, check the Cloudformation service -> stack: `sam-jaws`, the tab: Events.
    ![Screenshot](../../img/33_sam.png)
