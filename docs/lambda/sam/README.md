@@ -41,7 +41,11 @@ Build client
 -------------------------
 
 1. Navigate to `angilar-11-client` folder
-1. Build application with command **ng build --configuration production**	
+1. Build application with commands:
+   ```
+   npm install
+   ./node_modules/.bin/ng build --configuration production
+   ```
 1. Build result will be in folder **dist**	
 
 Upload client
