@@ -8,7 +8,7 @@ Retrieve project sources
 
 Clone project from github.ibm.com and switch to refactor_lambda branch
 
-    git clone git@github.ibm.com:jAWS/ToDo-app.git
+    git clone git@github.com:jaws-academy/ToDo-app.git
     cd ToDo-app
     git switch refactor_lambda
     git status
